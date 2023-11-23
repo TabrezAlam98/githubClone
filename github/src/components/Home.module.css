@@ -1,0 +1,142 @@
+.main{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+.box1{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    border-left: 3px solid white;
+
+}
+.box1 h1{
+    font-size: 80px;
+    text-align: left;
+    margin-left: 10px;
+}
+.box1 p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+.inputBox{
+    width: 65%;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.input{
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn{
+    width: 40%;
+    height: 100%;
+    border: 1px solid rgb(195, 130, 238);
+    border-radius: 3px;
+}
+.input input{
+    width: 55%;
+    height: 100%;
+    padding-left: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input button{
+    width: 45%;
+    height: 100%;
+    color: white;
+    background-color: rgb(195, 130, 238);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.box2{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    border-left: 3px solid white;
+    margin-top: 40px; 
+}
+.box2 p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px; 
+}
+
+.logoBox{
+    width: 80%;
+    margin-top: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logoBox img{
+    width: 15%;
+    height: 40px;
+ 
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .box1,.box2{
+        width: 100%;
+        margin-left: 10px;
+
+    }
+}
+@media only screen and (max-width: 770px) {
+    .box1 h1{
+        font-size: 60px;
+    }
+    .box1 p{
+        font-size: 18px;
+    
+    }
+    .inputBox{
+       width: 90%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .inputBox{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .logoBox{
+        width: 90%;
+    }
+    .box1 h1{
+        font-size: 40px;
+    }
+    .box1 p{
+        font-size: 15px;
+    
+    }
+    .box1{height: 35%;}
+    .input, .btn{
+        width: 100%;
+       
+    }
+}
