@@ -1,0 +1,111 @@
+.mainBox {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.innerMainBox {
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+}
+
+.main1 {
+  width: 35%;
+  height: 100%;
+}
+.main1 h1 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.p1 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.p2 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  color: gray;
+}
+.btnBox {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.main1 button {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  text-align: left;
+  text-align: center;
+}
+.main2 {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  margin-left:20px ;
+}
+.main2inner1 {
+  width: 50%;
+  height: 100%;
+}
+.main2inner2 {
+  width: 50%;
+  height: 100%;
+}
+.pBox {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: flex-start;
+  gap: 30%;
+}
+
+.main2inner1 p {
+  text-align: left;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.footerBottom{
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    margin-top: 50px;
+    display: flex;
+}
+.footerBottom div{
+
+    width: 50%;
+    height: 100%;
+  
+
+}
+.para p{
+    font-size: 12px;
+  text-align: left;
+  margin-top: 8px;
+  color: gray;
+}
+.socialLinks i{
+    font-size: 18px;
+    margin: 10px 5px 5px 5px;
+    color: gray;
+}
+
+@media only screen and (max-width: 660px) {
+  .innerMainBox {
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+  }
+}
