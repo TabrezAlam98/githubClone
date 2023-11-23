@@ -1,0 +1,48 @@
+.main{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+.contain{
+    width: 80%;
+    border-left: 3px solid white;
+    margin: auto;
+}
+.para1{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10px;
+}
+.para2{
+    font-size: 35px;
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(34, 179, 34);
+}
+.para3{
+    font-size: 35px;
+    text-align: left;
+    margin-left: 10px;
+    width: 80%;
+}
+.imgBox{
+    width: 85%;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+}
+.imgBox img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .contain{
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+}
